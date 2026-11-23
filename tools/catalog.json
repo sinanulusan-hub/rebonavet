@@ -1,0 +1,122 @@
+[
+ {
+  "ref": "RP005",
+  "g": "putty",
+  "tr": "Putty",
+  "en": "Putty",
+  "size": "0,5 cc|0.5 cc",
+  "pack": "Şırınga|Syringe"
+ },
+ {
+  "ref": "RP01",
+  "g": "putty",
+  "tr": "Putty",
+  "en": "Putty",
+  "size": "1 cc|1 cc",
+  "pack": "Şırınga|Syringe"
+ },
+ {
+  "ref": "RP03",
+  "g": "putty",
+  "tr": "Putty",
+  "en": "Putty",
+  "size": "3 cc|3 cc",
+  "pack": "Şırınga|Syringe"
+ },
+ {
+  "ref": "RCSGB05001040",
+  "g": "granule",
+  "tr": "Granül",
+  "en": "Granule",
+  "size": "0,5–1 mm · 4 cc|0.5–1 mm · 4 cc",
+  "pack": "Cam şişe|Glass bottle"
+ },
+ {
+  "ref": "RCSGB020405",
+  "g": "granule",
+  "tr": "Granül",
+  "en": "Granule",
+  "size": "2–4 mm · 5 cc|2–4 mm · 5 cc",
+  "pack": "Cam şişe|Glass bottle"
+ },
+ {
+  "ref": "RCS020410",
+  "g": "granule",
+  "tr": "Granül",
+  "en": "Granule",
+  "size": "2–4 mm · 10 cc|2–4 mm · 10 cc",
+  "pack": "Steril ambalaj|Sterile pack"
+ },
+ {
+  "ref": "RCS44204",
+  "g": "stick",
+  "tr": "Stick",
+  "en": "Stick",
+  "size": "4×4×20 mm · 4 adet|4×4×20 mm · 4 pcs",
+  "pack": "Steril ambalaj|Sterile pack"
+ },
+ {
+  "ref": "RCS55204",
+  "g": "stick",
+  "tr": "Stick",
+  "en": "Stick",
+  "size": "5×5×20 mm · 4 adet|5×5×20 mm · 4 pcs",
+  "pack": "Steril ambalaj|Sterile pack"
+ },
+ {
+  "ref": "RW102530",
+  "g": "stick",
+  "tr": "Blok",
+  "en": "Block",
+  "size": "10×25×30 mm|10×25×30 mm",
+  "pack": "Steril ambalaj|Sterile pack"
+ },
+ {
+  "ref": "RFS25252",
+  "g": "flex",
+  "tr": "Flexible",
+  "en": "Flexible",
+  "size": "25×25×2 mm|25×25×2 mm",
+  "pack": "Steril ambalaj|Sterile pack"
+ },
+ {
+  "ref": "RFS25504",
+  "g": "flex",
+  "tr": "Flexible",
+  "en": "Flexible",
+  "size": "25×50×4 mm · 5 cc|25×50×4 mm · 5 cc",
+  "pack": "Steril ambalaj|Sterile pack"
+ },
+ {
+  "ref": "RFSC1305",
+  "g": "flex",
+  "tr": "Flexible",
+  "en": "Flexible",
+  "size": "13×5 mm|13×5 mm",
+  "pack": "Steril ambalaj|Sterile pack"
+ },
+ {
+  "ref": "RFSC1310",
+  "g": "flex",
+  "tr": "Flexible",
+  "en": "Flexible",
+  "size": "13×10 mm|13×10 mm",
+  "pack": "Steril ambalaj|Sterile pack"
+ },
+ {
+  "ref": "RFSC1330",
+  "g": "flex",
+  "tr": "Flexible",
+  "en": "Flexible",
+  "size": "13×30 mm|13×30 mm",
+  "pack": "Steril ambalaj|Sterile pack"
+ },
+ {
+  "ref": "RFSC1350",
+  "g": "flex",
+  "tr": "Flexible",
+  "en": "Flexible",
+  "size": "13×50 mm|13×50 mm",
+  "pack": "Steril ambalaj|Sterile pack"
+ }
+]

@@ -315,3 +315,21 @@ td .pill{display:inline-block;font-size:.74rem;font-weight:600;padding:3px 9px;b
 .partner:hover .partner-link svg{transform:translateX(4px)}
 html[lang="en"] .partner-om{order:-1}
 @media (max-width:760px){.partners{grid-template-columns:1fr}.partner{padding:24px}}
+
+/* ---------- Language links ---------- */
+.lang a{font:600 .78rem/1 var(--sans);letter-spacing:.06em;color:var(--muted);padding:7px 10px;border-radius:999px;text-decoration:none}
+.lang a:hover{color:var(--brand);text-decoration:none}
+.lang a[aria-current="page"]{background:var(--brand);color:#fff}
+
+/* ---------- FAQ ---------- */
+.faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start}
+.faq-lead{margin-top:16px;font-size:1.02rem;color:var(--muted)}
+.faq-list{display:grid;gap:10px}
+.faq-item{background:#fff;border:1px solid var(--line);border-radius:12px;padding:0 20px;transition:border-color .2s}
+.faq-item[open]{border-color:var(--brand-200)}
+.faq-item summary{cursor:pointer;list-style:none;padding:18px 32px 18px 0;position:relative;font-weight:600;color:var(--ink);font-size:1rem}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:"";position:absolute;right:4px;top:50%;width:10px;height:10px;border-right:2px solid var(--brand);border-bottom:2px solid var(--brand);transform:translateY(-70%) rotate(45deg);transition:transform .2s}
+.faq-item[open] summary::after{transform:translateY(-30%) rotate(-135deg)}
+.faq-a{padding:0 0 18px;font-size:.95rem;color:var(--body)}
+@media (max-width:900px){.faq-grid{grid-template-columns:1fr;gap:28px}}

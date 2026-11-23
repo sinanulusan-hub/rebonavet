@@ -1,0 +1,38 @@
+# RebonaVet
+
+> RebonaVet is a synthetic bone graft for veterinary orthopaedics, made in Türkiye. It is based on β-tricalcium phosphate (β-TCP) with 1% silicon dioxide (silicate) and comes in four forms: Putty (injectable), Granule, Stick & Block, and Flexible. It is used by veterinary surgeons, mainly in dogs and cats, to fill non-load-bearing bone defects; it is osteoconductive, radiopaque, gamma sterilised and fully resorbable. For veterinary use only.
+
+RebonaVet (Türkçe: veteriner sentetik kemik grefti) — köpek ve kedilerde yük taşımayan kemik defektleri için β-TCP bazlı, silikat katkılı kemik grefti: Putty (enjekte edilebilir), Granül, Stick & Blok ve Flexible.
+
+Website: https://www.rebona.vet/ (Turkish) · https://www.rebona.vet/en/ (English)
+Contact: WhatsApp +90 532 719 60 90 (https://wa.me/905327196090) — product information, samples, orders, distribution, instructions for use (IFU).
+
+## Pages
+
+- [RebonaVet — English](https://www.rebona.vet/en/): products, science, indications, catalogue, quality, FAQ, contact
+- [RebonaVet — Türkçe](https://www.rebona.vet/): ürünler, bilimsel altyapı, uygulama alanları, katalog, kalite, SSS, iletişim
+
+## Products
+
+- **RebonaVet Putty** — injectable, mouldable β-TCP paste with HPMC hydrogel, ready to use in a syringe; no mixing. Radiopaque (0.1% ZrO₂). Shelf life 3 years. Sizes: 0.5 cc (REF RP005), 1 cc (RP01), 3 cc (RP03).
+- **RebonaVet Granule** — micro- and macroporous β-TCP granules with 1% SiO₂ and 0.1% ZrO₂; can be mixed with bone marrow aspirate or other grafts. Shelf life 5 years. Sizes: 0.5–1 mm · 4 cc glass bottle (RCSGB05001040), 2–4 mm · 5 cc glass bottle (RCSGB020405), 2–4 mm · 10 cc (RCS020410).
+- **RebonaVet Stick & Block** — pre-formed square-section β-TCP sticks and block with silicate; keep their shape for measured placement, controlled resorption. Sizes: 4×4×20 mm · 4 pcs (RCS44204), 5×5×20 mm · 4 pcs (RCS55204), block 10×25×30 mm (RW102530).
+- **RebonaVet Flexible** — flexible composite of β-TCP granules and resorbable poly(lactide-co-ε-caprolactone) (PLCL, 12.5%) with 1% SiO₂; conforms to the implant site. Shelf life 3 years. Sizes: 25×25×2 mm (RFS25252), 25×50×4 mm · 5 cc (RFS25504), 13×5 mm (RFSC1305), 13×10 mm (RFSC1310), 13×30 mm (RFSC1330), 13×50 mm (RFSC1350).
+
+## Key facts (from the product instructions for use)
+
+- Material: β-tricalcium phosphate (β-TCP); 1% silicon dioxide in all forms; contains no tissue of human or animal origin, so no risk of disease transmission.
+- Action: osteoconductive scaffold; releases calcium and phosphate ions as it dissolves; replaced by the patient's own bone.
+- Resorption: Granule and Putty keep their structure for 16–24 weeks and are fully resorbed in 6–12 months. Flexible: activity largely complete in 4–6 months, full resorption up to 18 months.
+- Indications: non-load-bearing bone defects from trauma, surgery or pathology — fracture repair, non-union and delayed union, osteotomies (e.g. open wedge), arthrodesis, revision surgery, bone cysts and post-resection cavities, spinal fusion (cage filling), mandible/maxilla augmentation (Flexible).
+- Not for: providing structural support or gaining screw fixation; avoid direct application to open growth plates. Fracture stability must come from an implant system (plates, screws).
+- Sterility and storage: gamma irradiation, SAL 10⁻⁶; double sterile barrier; single use; store at +17 °C to +27 °C, 40–60% relative humidity, dry, away from sunlight.
+
+## Related
+
+- [Travmavet](https://www.travmavet.com/): veterinary orthopaedic implants, plate and screw systems and surgical sets (Türkiye).
+- [Travmavet by Orthomed](https://travmavet.orthomed.co.uk/): Travmavet implant systems outside Türkiye, through global partner Orthomed.
+
+## Optional
+
+- [Sitemap](https://www.rebona.vet/sitemap.xml)
