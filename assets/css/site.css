@@ -300,3 +300,18 @@ td .pill{display:inline-block;font-size:.74rem;font-weight:600;padding:3px 9px;b
   th:nth-child(4),td:nth-child(4){display:none}
   td.ref{font-size:.76rem;white-space:normal;word-break:break-all}
 }
+
+/* ---------- Implant partners ---------- */
+.partners{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.partner{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:12px;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:32px;color:var(--body);text-decoration:none!important;transition:box-shadow .25s,transform .25s,border-color .25s}
+.partner:hover{box-shadow:var(--shadow);transform:translateY(-3px);border-color:var(--brand-200)}
+.partner img{height:48px;width:auto;margin:8px 0}
+.partner-om img{height:64px;margin:0}
+.partner h3{font-size:1.35rem}
+.partner p{font-size:.95rem;color:var(--muted)}
+.partner-tag{font-size:.74rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--brand);background:var(--brand-50);border:1px solid var(--brand-100);border-radius:999px;padding:4px 12px}
+.partner-link{margin-top:auto;padding-top:8px;display:inline-flex;align-items:center;gap:8px;font-weight:600;color:var(--brand)}
+.partner-link svg{width:18px;height:18px;transition:transform .2s}
+.partner:hover .partner-link svg{transform:translateX(4px)}
+html[lang="en"] .partner-om{order:-1}
+@media (max-width:760px){.partners{grid-template-columns:1fr}.partner{padding:24px}}
