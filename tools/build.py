@@ -102,7 +102,7 @@ def jsonld(lang, strings):
         "isPartOf": {"@id": SITE + "/#website"},
         "about": {"@id": SITE + "/#org"},
         "primaryImageOfPage": SITE + "/assets/img/og-image.png",
-        "dateModified": "2026-11-23",
+        "dateModified": "2026-11-26",
     }
     forms = [
         ("putty", "p1", "Putty"),
@@ -110,37 +110,29 @@ def jsonld(lang, strings):
         ("stick", "p3", "Stick & Block" if lang == "en" else "Stick & Blok"),
         ("flex", "p4", "Flexible"),
     ]
-    products = []
-    for g, k, label in forms:
-        variants = [
-            {
-                "@type": "Product",
-                "name": f"RebonaVet {(r['en'] if lang == 'en' else r['tr'])} {pick(r['size'], lang)}",
-                "sku": r["ref"],
-                "mpn": r["ref"],
-                "size": pick(r["size"], lang),
-            }
-            for r in CAT if r["g"] == g
-        ]
-        products.append({
-            "@type": "ProductGroup",
+    # Products are described as plain schema.org "Thing" entries in WebPage.mentions,
+    # not as Product/ProductGroup: Google's product snippets require a price
+    # (offers), reviews or a rating, and the site shows none of these (prices are
+    # given on request). This keeps the product facts machine-readable for search
+    # and AI assistants without triggering Product rich-result errors.
+    sizes_label = "Sizes" if lang == "en" else "Ölçüler"
+    webpage["mentions"] = [
+        {
+            "@type": "Thing",
             "@id": f"{url}#product-{g}",
             "name": f"RebonaVet {label}",
-            "description": s(k + "_d"),
-            "brand": {"@type": "Brand", "name": "RebonaVet"},
-            "category": "Veterinary synthetic bone graft" if lang == "en" else "Veteriner sentetik kemik grefti",
-            "material": s(k + "_f"),
-            "image": SITE + "/assets/img/og-image.png",
-            "productGroupID": g,
-            "variesBy": "https://schema.org/size",
-            "countryOfOrigin": {"@type": "Country", "name": "TR"},
-            "audience": {"@type": "Audience", "audienceType": "Veterinary surgeons" if lang == "en" else "Veteriner cerrahlar"},
-            "additionalProperty": [
-                {"@type": "PropertyValue", "name": "Sterilisation" if lang == "en" else "Sterilizasyon", "value": "Gamma, SAL 10⁻⁶"},
-                {"@type": "PropertyValue", "name": "Use" if lang == "en" else "Kullanım", "value": s("sp6v")},
+            "alternateName": s(k + "_f"),
+            "description": s(k + "_d") + f" {sizes_label}: " + ", ".join(
+                pick(r["size"], lang) for r in CAT if r["g"] == g) + ".",
+            "url": url + "#urunler",
+            "identifier": [
+                {"@type": "PropertyValue", "propertyID": "REF", "value": r["ref"],
+                 "description": pick(r["size"], lang)}
+                for r in CAT if r["g"] == g
             ],
-            "hasVariant": variants,
-        })
+        }
+        for g, k, label in forms
+    ]
     faq = {
         "@type": "FAQPage",
         "@id": url + "#faq",
@@ -150,7 +142,7 @@ def jsonld(lang, strings):
             for q, a in FAQ[lang]
         ],
     }
-    data = {"@context": "https://schema.org", "@graph": [org, website, webpage, *products, faq]}
+    data = {"@context": "https://schema.org", "@graph": [org, website, webpage, faq]}
     return json.dumps(data, ensure_ascii=False, indent=1)
 
 
